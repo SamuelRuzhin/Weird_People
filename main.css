@@ -1,0 +1,69 @@
+
+#header h2 {
+	font-size: 50px;
+	padding-top: 25px;
+	color:white;
+	font-family: impact;
+	text-align: center;
+}
+
+#menu {
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	opacity: 0.6;
+
+}
+
+#menu .menu-item {
+	float: left;
+}
+
+.menu-item  {
+	padding: 10px 25px 10px 100px;
+}
+
+.menu-item a {
+	color:white;
+	display: inline;
+	font-size: 30px;
+	text-decoration: none;
+
+}
+ 
+
+.menu-item a:hover {
+	background-color: #222fff;
+}
+
+
+.my-container {
+	margin-top: 100px; 
+    background: #ffffff;
+    overflow: hidden;
+    opacity: 0.5;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.my-container h1 {
+	font-family: Berkshire Swash;
+    padding: 20px;
+    text-align: center;
+    z-index: 2;
+    color: #000000;
+    text-decoration: none;
+} 
+article {
+	font-family:"Times New Roman", Times, Serif;
+	margin-right: 15%;
+	margin-left: 15%;
+	color: white;
+  	background: #000000;
+  	opacity: 0.6;
+  	padding: 25px;
+}
+
+
+
+
