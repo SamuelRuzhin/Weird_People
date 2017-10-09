@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: georgia, times, "times new roman", serif;
+}
+
+#container {
+	margin: 1em 5%;
+	width: 90%;
+	background: #fff;
+	line-height: 130%;
+}
+
+#header {
+	background: #ccc;
+	padding: 20px;
+}
+
+#header h1 {
+	margin: 0;
+	padding: .5em;
+}
+
+#content-container {
+	float: left;
+	width: 100%;
+}
+
+#leftaside {
+	clear: left;
+	float: left;
+	width: 26%;
+	padding-top: 1em;
+	margin: 0 3% 0 0;
+	display: inline;
+}
+
+#navlist {
+	padding-left: 0;
+	margin-left: 0;
+	border-bottom: 1px solid gray;
+	width: 100%;
+}
+
+#navlist li{
+	list-style-type: none;
+	margin: 0;
+	padding: 0.25em;
+	border-top: 1px solid gray;
+}
+
+#navlist li a{
+	text-decoration: none;
+}
+
+#content {
+	float:right;
+	width: 60%;
+	padding: 1em 0;
+	margin: 0 2em 0 0;
+	display: inline;
+}
+
+#hrnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000000;
+}
+
+#hrnav .clli {
+	float: left;
+}
+
+.clli a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+.clli a:hover {
+	background-color: #222fff;
